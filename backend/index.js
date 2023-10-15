@@ -29,7 +29,7 @@ app.use('/books',rout);
 
 
 mongoose
-    .connect(MONGO_URL)
+    .connect('mongodb+srv://partagowda15:7COtoDpdf6MHOzOq@book.7tjqmb6.mongodb.net/?retryWrites=true&w=majority')
     .then(()=>{
         console.log("data base connected")
         app.listen(PORT,()=>console.log(`server run with ${PORT}`))
