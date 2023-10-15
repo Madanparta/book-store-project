@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 import {PORT} from "./config.js";
-import { MONGO_URL } from "./config.js";
+// import { MONGO_URL } from "./config.js";
 
 import rout from "./routs/rout.js";
 
